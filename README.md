@@ -1,4 +1,4 @@
-A puppet module to manage [circus](https://github.com/mozilla-services/github).
+A puppet module to manage [circus](https://github.com/mozilla-services/circus).
 
 ## Dependencies
 
