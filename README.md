@@ -1,3 +1,5 @@
+A puppet module to manage [circus](https://github.com/mozilla-services/github).
+
 ## Dependencies
 
 You have a package named "circus" that installs:
@@ -31,7 +33,7 @@ Creates a config file that looks like this:
     cmd = /bin/bash
     args = -c 'sleep 30'
     warmup_delay = 0
-    numprocesses = 1
+    numprocesses = 3
 
 And generates a puppet exec resource you can use to notify when you want to
 restart your program:
