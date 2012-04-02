@@ -1,6 +1,7 @@
 ## Dependencies
 
 You have a package named "circus" that installs:
+
 * /usr/bin/circusd
 * /usr/bin/circusctl
 
