@@ -1,4 +1,5 @@
-define circus::watcher($cmd, $args, $warmup_delay = 0, $numprocesses = 1) {
+define circus::watcher($cmd, $args, $warmup_delay = 0, $numprocesses = 1,
+                       $uid = "root", $gid = "root") {
     include circus::manager
 
     file {
